@@ -118,8 +118,8 @@ var spinner = new Spinner(opts).spin(target);
 					wtr = day.weatherCode;
 
 				icon(wtr);
-				nextUl.append('<li class="nextItem"><p class="day">'+ days[today-1] +'</p><p class="'+ iconLoaded +'"></p><span class="nextT">Max. </span><span>'+ tMax +'°c</span> | <span class="nextT">Min. </span><span>'+ tMin +'°c</span></li>');
 				today++;
+				nextUl.append('<li class="nextItem"><p class="day">'+ days[today-1] +'</p><p class="'+ iconLoaded +'"></p><span class="nextT">Max. </span><span>'+ tMax +'°c</span> | <span class="nextT">Min. </span><span>'+ tMin +'°c</span></li>');
 			}
 
 			//Change title
