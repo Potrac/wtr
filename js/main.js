@@ -101,7 +101,8 @@ var spinner = new Spinner(opts).spin(target);
 				if(code == '113'){iconLoaded='climacon sun';}
 
 				return iconLoaded;
-			};	
+			}
+			
 			icon(wtrCode);
 
 			//Next days
